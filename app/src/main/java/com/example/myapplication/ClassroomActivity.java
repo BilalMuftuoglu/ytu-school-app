@@ -283,7 +283,7 @@ public class ClassroomActivity extends AppCompatActivity {
                 public Map<String, String> getHeaders() throws AuthFailureError {
                     Map<String,String> headers = new HashMap<>();
                     headers.put("Content-Type","application/json");
-                    headers.put("Authorization","key=AAAAIIZbZG4:APA91bFo6e_rJOaLmJad1BGcNU49V_8WqqVcPR9uf2G0YXcY4sFMjxFMKG-Q4Ijyx4nrfVDNscLiKBYB1vMUaqaCBsXUmONKrZvURgp8g49Bs0ZNSRYSBB5qkuiq87lPE4fVMtVAD73q");
+                    headers.put("Authorization","key=YOUR_FIREBASE_CLOUD_MESSAGING_SERVER_KEY");
                     return headers;
                 }
             };
